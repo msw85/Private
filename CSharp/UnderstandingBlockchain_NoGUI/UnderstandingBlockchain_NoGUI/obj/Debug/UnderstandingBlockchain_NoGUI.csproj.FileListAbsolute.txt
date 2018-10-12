@@ -1,0 +1,7 @@
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\bin\Debug\UnderstandingBlockchain_NoGUI.exe.config
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\bin\Debug\UnderstandingBlockchain_NoGUI.exe
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\bin\Debug\UnderstandingBlockchain_NoGUI.pdb
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\obj\Debug\UnderstandingBlockchain_NoGUI.csprojAssemblyReference.cache
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\obj\Debug\UnderstandingBlockchain_NoGUI.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\obj\Debug\UnderstandingBlockchain_NoGUI.exe
+D:\Programming\Visual Studio\Privat\UnderstandingBlockchain_NoGUI\UnderstandingBlockchain_NoGUI\obj\Debug\UnderstandingBlockchain_NoGUI.pdb

@@ -1,0 +1,11 @@
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\bin\Debug\SmallImageCopy.exe.config
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\bin\Debug\SmallImageCopy.exe
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\bin\Debug\SmallImageCopy.pdb
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.Properties.Resources.resources
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.exe
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.pdb
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\obj\Debug\SmallImageCopy.MainForm.resources
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\bin\Debug\SmallImageCopy.exe.CodeAnalysisLog.xml
+D:\Programming\Visual Studio\Privat\SmallImageCopy\SmallImageCopy\bin\Debug\SmallImageCopy.exe.lastcodeanalysissucceeded
