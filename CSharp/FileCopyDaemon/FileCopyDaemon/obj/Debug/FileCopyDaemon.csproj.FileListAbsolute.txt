@@ -1,0 +1,15 @@
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.csprojAssemblyReference.cache
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.Properties.Resources.resources
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.Settings.resources
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.csproj.GenerateResource.cache
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.csproj.CoreCompileInputs.cache
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\FileCopyDaemon.exe.config
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\FileCopyDaemon.exe
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\FileCopyDaemon.pdb
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\Client.dll
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\Server.dll
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\Client.pdb
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\bin\Debug\Server.pdb
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.csproj.CopyComplete
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.exe
+D:\dotNET\FileCopyDaemon\FileCopyDaemon\obj\Debug\FileCopyDaemon.pdb

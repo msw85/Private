@@ -1,0 +1,6 @@
+D:\dotNET\FileCopyDaemon\Client\bin\Debug\Client.exe.config
+D:\dotNET\FileCopyDaemon\Client\bin\Debug\Client.exe
+D:\dotNET\FileCopyDaemon\Client\bin\Debug\Client.pdb
+D:\dotNET\FileCopyDaemon\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\dotNET\FileCopyDaemon\Client\obj\Debug\Client.exe
+D:\dotNET\FileCopyDaemon\Client\obj\Debug\Client.pdb
