@@ -49,12 +49,9 @@ API funtionality:
 - Deletes the given post by the given user
 
 #PAGE FUNTIONALITY#  
-<<<<<<< HEAD
 Not implemented yet.
 
 #POST FUNTIONALITY#  
-=======
->>>>>>> 14512f51c166f6e59eacfe5e295596b81cf0cc99
 Not implemented yet.
 
 -------------- TO DO ---------------  
