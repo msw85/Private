@@ -1,14 +1,14 @@
------------- The What -------------
+------------ The What -------------  
 Simple social network api build with Python3, Flask and Neo4j.
 
-------------- The Why -------------
+------------- The Why -------------  
 To get some experience with Flask and explore graphdatabases via. Neo4j.
 NB: Not meant for actual production use. ;)
 
-------- Documentation (WIP) -------
+------- Documentation (WIP) -------  
 API funtionality:
 
-#USER FUNCTIONALITY#
+#USER FUNCTIONALITY#  
 /
 - Not useful, just made to check if the Flask app was served.
 
@@ -18,13 +18,13 @@ API funtionality:
 /get/user/<name>
 - Returns a user matching the name given.
 
-/get/user/<name>/friends
+/get/user/friends/<name>
 - Returns a collection of friends of the user.
 
-/get/user/<name>/likes
+/get/user/likes/<name>
 - Returns a collection of pagelikes of the user.
 
-/get/user/<name>/posts
+/get/user/posts/<name>
 - Returns a collection of posts by the user.
 
 /post/user/<name>
@@ -33,19 +33,28 @@ API funtionality:
 /post/user/friendship/<name>/<friend>
 - Creates a relationship in the graf of type friend between the given 2 users
 
+/post/user/<name>/<like>
+
+/post/user/<name>/<post>
+
 /delete/user/<name>
 - Deletes a user by the given name
 
 /delete/user/friendship/<name>/<friend>
 - Deletes a friendship between the 2 users given
 
+/delete/user/<name>/<like>
+
 /delete/user/<name>/<post>
 - Deletes the given post by the given user
 
-#PAGE FUNTIONALITY#
+#PAGE FUNTIONALITY#  
 Not implemented yet.
 
--------------- TO DO ---------------
+#POST FUNTIONALITY#  
+Not implemented yet.
+
+-------------- TO DO ---------------  
 As this is very much a work in progress and a proof of concept,
 a lot of things should change.
 

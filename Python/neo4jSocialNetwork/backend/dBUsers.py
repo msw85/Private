@@ -12,10 +12,9 @@ def createUser(userName):
     result = None #True/False
     
     db = conn.getDBConnection()
+    query = 'CREATE (u:User {{name: "{0}"}})'.format(userName)
+    db.query(query)
 
-    label = db.labels.create('User')
-    user = db.nodes.create(name = userName)
-    label.add(user)
     return result
 
 def getAll():
@@ -53,7 +52,9 @@ def addFriend(name, friendName):
     return result
 
 def getAllFriends(name):
-    friends = None
+    db = conn.getDBConnection()
+    query = 'MATCH (u1:User)-[r:friend]-(u2:User) WHERE u1 .name = "{0}" RETURN u1, type(r), u2'.format(name)
+    friends = db.query(query, returns = (client.Node, str, client.Node))
 
     return friends
 
@@ -68,6 +69,9 @@ def removeFriend(name, friendName):
 #User pagelike functions
 def addLike(name, pageName):
     result = None #True/False
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User),(p:Page) WHERE u.name = "{0}" AND p.name = "{1}" CREATE (u)-[r:like]->(p)'.format(name, pageName)
+    db.query(query)
 
     return result
 
@@ -76,8 +80,11 @@ def getAllLikes(name):
 
     return likes
 
-def deleteLike(name, pageName):
+def removeLike(name, pageName):
     result = None #True/False
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User)-[r:like]-(p:Page) WHERE u.name = "{0}" AND p.name = "{1}" DELETE r'.format(name, pageName)
+    db.query(query)
 
     return result
 

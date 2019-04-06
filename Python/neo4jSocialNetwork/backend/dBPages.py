@@ -1,3 +1,17 @@
+#Imports
+import backend.dBConnection as conn
+from neo4jrestclient import client
+
+def createPage(name):
+    #Implement other attributes
+    result = None #True/False
+    
+    db = conn.getDBConnection()
+    query = 'CREATE (p:Page {{name: "{0}"}})'.format(name)
+    db.query(query)
+
+    return result
+
 def getAll():
     pages = None
 
@@ -13,11 +27,6 @@ def getAllLikes(name):
 
     return likes
 
-def createPage(name, description, contact):
-    result = None
-
-    return result
-
 def addAdmin(name, adminName):
     result = None
 
@@ -25,6 +34,9 @@ def addAdmin(name, adminName):
 
 def deletePage(name):
     result = None
+    db = conn.getDBConnection()
+    query = 'MATCH (p:Page) WHERE p.name = "{0}" DELETE p'.format(name)
+    db.query(query)
 
     return result
 
