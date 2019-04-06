@@ -1,14 +1,14 @@
------------- The What -------------
+------------ The What -------------  
 Simple social network api build with Python3, Flask and Neo4j.
 
-------------- The Why -------------
+------------- The Why -------------  
 To get some experience with Flask and explore graphdatabases via. Neo4j.
 NB: Not meant for actual production use. ;)
 
-------- Documentation (WIP) -------
+------- Documentation (WIP) -------  
 API funtionality:
 
-#USER FUNCTIONALITY#
+#USER FUNCTIONALITY#  
 /
 - Not useful, just made to check if the Flask app was served.
 
@@ -42,10 +42,10 @@ API funtionality:
 /delete/user/<name>/<post>
 - Deletes the given post by the given user
 
-#PAGE FUNTIONALITY#
+#PAGE FUNTIONALITY#  
 Not implemented yet.
 
--------------- TO DO ---------------
+-------------- TO DO ---------------  
 As this is very much a work in progress and a proof of concept,
 a lot of things should change.
 
