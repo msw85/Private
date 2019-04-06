@@ -2,6 +2,9 @@
 import backend.dBConnection as conn
 from neo4jrestclient import client
 
+#TODO
+# Implement other functions if needed
+
 def createPage(name):
     #Implement other attributes
     result = None #True/False

@@ -1,5 +1,6 @@
 #Imports
 import backend.dBConnection as conn
+
 from neo4jrestclient import client
 
 #TODO
@@ -53,7 +54,7 @@ def addFriend(name, friendName):
 
 def getAllFriends(name):
     db = conn.getDBConnection()
-    query = 'MATCH (u1:User)-[r:friend]-(u2:User) WHERE u1 .name = "{0}" RETURN u1, type(r), u2'.format(name)
+    query = 'MATCH (u1:User)-[r:friend]-(u2:User) WHERE u1.name = "{0}" RETURN u1, type(r), u2'.format(name)
     friends = db.query(query, returns = (client.Node, str, client.Node))
 
     return friends
@@ -76,7 +77,9 @@ def addLike(name, pageName):
     return result
 
 def getAllLikes(name):
-    likes = None
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User)-[r:like]-(p:Page) WHERE u.name = "{0}" RETURN u, type(r), p'.format(name)
+    likes = db.query(query, returns = (client.Node, str, client.Node))
 
     return likes
 
@@ -91,15 +94,23 @@ def removeLike(name, pageName):
 #User post functions
 def addPost(name, post):
     result = None #True/False
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User),(p:Post) WHERE u.name = "{0}" AND p.message = "{1}" CREATE (u)-[r:post]->(p)'.format(name, post)
+    db.query(query)
 
     return result
 
 def getAllPosts(name):
-    posts = None
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User)-[r:post]-(p:Post) WHERE u.name = "{0}" RETURN u, type(r), p'.format(name)
+    posts = db.query(query, returns = (client.Node, str, client.Node))
 
     return posts
 
 def deletePost(name, post):
     result = None #True/False
+    db = conn.getDBConnection()
+    query = 'MATCH (u:User)-[r:post]-(p:Post) WHERE u.name = "{0}" AND p.message = "{1}" DELETE r'.format(name, post)
+    db.query(query)
 
     return result
