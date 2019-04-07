@@ -1,0 +1,7 @@
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\bin\Debug\ReversingLinkedlist.exe.config
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\bin\Debug\ReversingLinkedlist.exe
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\bin\Debug\ReversingLinkedlist.pdb
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\obj\Debug\ReversingLinkedlist.csprojAssemblyReference.cache
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\obj\Debug\ReversingLinkedlist.csproj.CoreCompileInputs.cache
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\obj\Debug\ReversingLinkedlist.exe
+D:\GitHub\Private\CSharp\ReversingLinkedlist\ReversingLinkedlist\obj\Debug\ReversingLinkedlist.pdb
