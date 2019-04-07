@@ -1,8 +1,11 @@
 #Imports
 import sys
-#sys.path.append('../')
-sys.path.insert(0, 'D:\\GitHub\\Private\\Python\\neo4jSocialNetwork')
+from pathlib import Path
+
+absolutePath = str(Path().absolute())
+sys.path.insert(0, absolutePath)
 print(sys.path)
+
 import backend.dBUsers as users
 import backend.dBPages as pages
 import backend.dBPosts as posts
