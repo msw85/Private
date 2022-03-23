@@ -57,7 +57,7 @@ namespace ReversingLinkedlist {
                 currentNode.next = prevNode;
                 Console.WriteLine("Assigning <currentNode> " + currentNode + " to <prevNode> " + prevNode);
                 prevNode = currentNode;
-                Console.WriteLine("Assigning <currentNode> " + currentNode + " to <prevNode> " + prevNode);
+                Console.WriteLine("Assigning <currentNode> " + currentNode + " to <prevNode> " + nextNode);
                 currentNode = nextNode;
 
                 Console.WriteLine("--Done redirecting one node!--");
@@ -65,6 +65,9 @@ namespace ReversingLinkedlist {
             }
 
             headNode = prevNode;
+
+            Console.WriteLine("New head: " + headNode);
+            Console.WriteLine(" ");
         }
 
         //Prints the list to Console 
