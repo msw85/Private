@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div>
+            <h1 class="center">Youtube Collab App</h1>
+        </div>
+        <div>
+            <iframe class="center playerdiv" id="player" type="text/html"
+            width="640" height="390" src="http://www.youtube.com/embed/9r8LyEYDwws?enablejsapi=1&origin=http://example.com"
+            frameborder="0"></iframe>
+        </div>
+        <div class="center">
+            <input type="text" placeholder="YouTube video Id" style="font-size:16pt;">
+            <button class="bigbutton" type="button" id="ytplay">Play</button>
+            <button class="bigbutton" type="button" id="ytoause">Pause</button>
+        </div>
+        <hr class="rounded">
+        <div class="center">
+            <div>
+            <input type="text" class="form-control" id="username" placeholder="Set your chatname" >
+            <button class="smallbutton" type="button" id="usernameBtn">Set</button>
+            </div>
+            
+            <input type="text" id="message" placeholder="Enter text..." style="font-size:16pt;">
+            <input class="bigbutton" type="submit" value="Send" id="messageBtn">
+            <div class="message-box">
+                <ul class="list-group list-group-flush" id="message-list"></ul>
+                <div class="info"></div>
+            </div>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+        <script src="/js/chatroom.js"></script>
+    </body>
+</html>
